@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 style="color:red">table</h1>
+<!-- <table border="2">
+    <tr>
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Currencies</th>
+    </tr>
+    <tr *ngFor="let employee of Employees">
+        <td>{{employee.name}}</td>
+        <td>{{employee.capital}}</td>
+        <td><span *ngFor="let emp of employee.currencies">{{emp.name}}</span></td>
+
+    </tr>
+</table>
+</div> -->
+<table border="2">
+    <tr>
+        <th>currencies</th>
+    </tr>
+    <tr *ngFor="let emp of Employees" >
+        <td>{{emp}}</td>
+    </tr>
+
+</table>
